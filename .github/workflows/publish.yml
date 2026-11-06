@@ -1,0 +1,55 @@
+# Every 6 hours: collect fresh scam sites, sign them, publish on GitHub Pages (free).
+# Needs one secret: FEED_KEY (the feed signing key, kept by the owner).
+name: publish-feed
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Write signing key
+        env:
+          FEED_KEY: ${{ secrets.FEED_KEY }}
+        run: |
+          mkdir -p private
+          printf '%s\n' "$FEED_KEY" > private/feed-signing-key.pem
+          chmod 600 private/feed-signing-key.pem
+      - name: Build and sign (reuse this week's base list, add a small delta)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/build_feed.py --out out/site/feed --prev https://ktsiminakis.github.io/fylakas-feed/feed/
+      - name: Check the signature with the public key the app has
+        run: openssl dgst -sha256 -verify rules/feed-public-key.pem -signature out/site/feed/manifest.sig out/site/feed/manifest.json
+      - name: Remove key
+        if: always()
+        run: rm -f private/feed-signing-key.pem
+      - run: cp site/index.html out/site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out/site
+      - name: Alarm if a scam source has stopped updating (sends the owner an e-mail)
+        run: |
+          if [ -s out/site/stale.txt ]; then echo "::error::Old or failing sources: $(cat out/site/stale.txt)"; exit 1; fi
+  deploy:
+    needs: build
+    if: always() && needs.build.result != 'cancelled'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4

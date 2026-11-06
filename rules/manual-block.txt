@@ -1,0 +1,2 @@
+# Scam sites added by hand (one per line): approved user reports, police/news announcements, any country.
+# Ψεύτικα sites που προσθέτουμε με το χέρι (ένα ανά γραμμή): εγκεκριμένες αναφορές χρηστών, ανακοινώσεις αστυνομίας, ειδήσεις.

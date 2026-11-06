@@ -1,0 +1,2892 @@
+{
+ "format": 1,
+ "version": 1,
+ "updated": "2026-11-04",
+ "note": "Κανόνες του Φύλακα. Τα κείμενα συγκρίνονται σε πεζά, χωρίς τόνους, με ς=σ. Domains: τα επίσημα κάθε εταιρείας (μετράνε και τα subdomains).",
+ "brands": [
+  {
+   "id": "elta",
+   "name": "ΕΛΤΑ",
+   "kw": [
+    "ελτα",
+    "elta",
+    "ελληνικα ταχυδρομεια"
+   ],
+   "tok": [
+    "elta"
+   ],
+   "dom": [
+    "elta.gr",
+    "elta-courier.gr"
+   ]
+  },
+  {
+   "id": "acs",
+   "name": "ACS",
+   "kw": [
+    "acs courier",
+    "acs"
+   ],
+   "tok": [
+    "acscourier",
+    "acs-courier"
+   ],
+   "dom": [
+    "acscourier.net"
+   ]
+  },
+  {
+   "id": "geniki",
+   "name": "Γενική Ταχυδρομική",
+   "kw": [
+    "γενικη ταχυδρομικη",
+    "taxydromiki"
+   ],
+   "tok": [
+    "taxydromiki"
+   ],
+   "dom": [
+    "taxydromiki.com"
+   ]
+  },
+  {
+   "id": "speedex",
+   "name": "Speedex",
+   "kw": [
+    "speedex"
+   ],
+   "tok": [
+    "speedex"
+   ],
+   "dom": [
+    "speedex.gr"
+   ]
+  },
+  {
+   "id": "boxnow",
+   "name": "BOX NOW",
+   "kw": [
+    "box now",
+    "boxnow"
+   ],
+   "tok": [
+    "boxnow",
+    "box-now"
+   ],
+   "dom": [
+    "boxnow.gr"
+   ]
+  },
+  {
+   "id": "dhl",
+   "name": "DHL",
+   "kw": [
+    "dhl"
+   ],
+   "tok": [
+    "dhl"
+   ],
+   "dom": [
+    "dhl.com",
+    "dhl.gr",
+    "dhl.de"
+   ]
+  },
+  {
+   "id": "ups",
+   "name": "UPS",
+   "kw": [
+    "ups"
+   ],
+   "tok": [
+    "ups-"
+   ],
+   "dom": [
+    "ups.com"
+   ]
+  },
+  {
+   "id": "fedex",
+   "name": "FedEx",
+   "kw": [
+    "fedex"
+   ],
+   "tok": [
+    "fedex"
+   ],
+   "dom": [
+    "fedex.com"
+   ]
+  },
+  {
+   "id": "skroutz",
+   "name": "Skroutz",
+   "kw": [
+    "skroutz",
+    "σκρουτζ"
+   ],
+   "tok": [
+    "skroutz"
+   ],
+   "dom": [
+    "skroutz.gr"
+   ]
+  },
+  {
+   "id": "aade",
+   "name": "ΑΑΔΕ / Εφορία",
+   "kw": [
+    "ααδε",
+    "aade",
+    "εφορια",
+    "taxisnet",
+    "taxis",
+    "myaade",
+    "mydata",
+    "ανεξαρτητη αρχη δημοσιων εσοδων"
+   ],
+   "tok": [
+    "aade",
+    "gsis",
+    "taxisnet",
+    "myaade"
+   ],
+   "dom": [
+    "aade.gr",
+    "gsis.gr",
+    "gov.gr"
+   ]
+  },
+  {
+   "id": "govgr",
+   "name": "gov.gr",
+   "kw": [
+    "gov.gr",
+    "govgr",
+    "gov gr",
+    "gov.gr wallet",
+    "ψηφιακη πυλη"
+   ],
+   "tok": [
+    "gov-gr",
+    "govgr",
+    "gr-gov",
+    "gov.gr"
+   ],
+   "dom": [
+    "gov.gr"
+   ]
+  },
+  {
+   "id": "efka",
+   "name": "e-ΕΦΚΑ",
+   "kw": [
+    "εφκα",
+    "efka",
+    "ικα",
+    "συνταξη σασ"
+   ],
+   "tok": [
+    "efka"
+   ],
+   "dom": [
+    "efka.gov.gr",
+    "gov.gr"
+   ]
+  },
+  {
+   "id": "police",
+   "name": "Ελληνική Αστυνομία",
+   "kw": [
+    "ελληνικη αστυνομια",
+    "διωξη ηλεκτρονικου εγκληματοσ",
+    "cybercrime",
+    "europol",
+    "interpol",
+    "ιντερπολ"
+   ],
+   "tok": [
+    "astynomia",
+    "europol",
+    "cybercrime"
+   ],
+   "dom": [
+    "astynomia.gr",
+    "europa.eu",
+    "gov.gr"
+   ]
+  },
+  {
+   "id": "traffic",
+   "name": "Τροχαία / κλήσεις",
+   "kw": [
+    "τροχαια",
+    "κλησεισ τροχαιασ",
+    "κληση τροχαιασ",
+    "point system",
+    "κ.ο.κ",
+    "κοκ"
+   ],
+   "tok": [
+    "trochaia",
+    "kok-",
+    "klisi"
+   ],
+   "dom": [
+    "astynomia.gr",
+    "gov.gr"
+   ]
+  },
+  {
+   "id": "tolls",
+   "name": "Διόδια / e-pass",
+   "kw": [
+    "διοδια",
+    "e-pass",
+    "epass",
+    "αττικη οδοσ",
+    "attiki odos",
+    "εγνατια οδοσ",
+    "ολυμπια οδοσ",
+    "νεα οδοσ",
+    "κεντρικη οδοσ",
+    "μορεασ"
+   ],
+   "tok": [
+    "aodos",
+    "egnatia",
+    "olympiaodos",
+    "neaodos",
+    "kentrikiodos",
+    "moreas",
+    "e-pass",
+    "epass"
+   ],
+   "dom": [
+    "aodos.gr",
+    "egnatia.eu",
+    "olympiaodos.gr",
+    "neaodos.gr",
+    "kentrikiodos.gr",
+    "moreas.com.gr"
+   ]
+  },
+  {
+   "id": "nbg",
+   "name": "Εθνική Τράπεζα",
+   "kw": [
+    "εθνικη τραπεζα",
+    "εθνικησ τραπεζησ",
+    "nbg",
+    "i-bank",
+    "ibank"
+   ],
+   "tok": [
+    "nbg",
+    "ethniki",
+    "i-bank"
+   ],
+   "dom": [
+    "nbg.gr"
+   ]
+  },
+  {
+   "id": "piraeus",
+   "name": "Τράπεζα Πειραιώς",
+   "kw": [
+    "τραπεζα πειραιωσ",
+    "τραπεζασ πειραιωσ",
+    "piraeus bank",
+    "winbank",
+    "piraeusbank"
+   ],
+   "tok": [
+    "piraeus",
+    "winbank"
+   ],
+   "dom": [
+    "piraeusbank.gr",
+    "winbank.gr"
+   ]
+  },
+  {
+   "id": "eurobank",
+   "name": "Eurobank",
+   "kw": [
+    "eurobank"
+   ],
+   "tok": [
+    "eurobank"
+   ],
+   "dom": [
+    "eurobank.gr"
+   ]
+  },
+  {
+   "id": "alpha",
+   "name": "Alpha Bank",
+   "kw": [
+    "alpha bank",
+    "alphabank",
+    "myalpha",
+    "alpha web banking"
+   ],
+   "tok": [
+    "alphabank",
+    "alpha-bank",
+    "myalpha"
+   ],
+   "dom": [
+    "alpha.gr"
+   ]
+  },
+  {
+   "id": "attica",
+   "name": "Attica Bank",
+   "kw": [
+    "attica bank",
+    "atticabank"
+   ],
+   "tok": [
+    "atticabank",
+    "attica-bank"
+   ],
+   "dom": [
+    "atticabank.gr"
+   ]
+  },
+  {
+   "id": "optima",
+   "name": "Optima Bank",
+   "kw": [
+    "optima bank",
+    "optimabank"
+   ],
+   "tok": [
+    "optimabank"
+   ],
+   "dom": [
+    "optimabank.gr"
+   ]
+  },
+  {
+   "id": "viva",
+   "name": "Viva Wallet",
+   "kw": [
+    "viva wallet",
+    "vivawallet"
+   ],
+   "tok": [
+    "vivawallet",
+    "viva-wallet"
+   ],
+   "dom": [
+    "vivawallet.com"
+   ]
+  },
+  {
+   "id": "revolut",
+   "name": "Revolut",
+   "kw": [
+    "revolut"
+   ],
+   "tok": [
+    "revolut"
+   ],
+   "dom": [
+    "revolut.com",
+    "revolut.me"
+   ]
+  },
+  {
+   "id": "paypal",
+   "name": "PayPal",
+   "kw": [
+    "paypal"
+   ],
+   "tok": [
+    "paypal"
+   ],
+   "dom": [
+    "paypal.com",
+    "paypal.me"
+   ]
+  },
+  {
+   "id": "dei",
+   "name": "ΔΕΗ",
+   "kw": [
+    "δεη",
+    "mydei",
+    "δημοσια επιχειρηση ηλεκτρισμου"
+   ],
+   "tok": [
+    "mydei",
+    "dei-gr",
+    "deigr"
+   ],
+   "dom": [
+    "dei.gr"
+   ]
+  },
+  {
+   "id": "deddie",
+   "name": "ΔΕΔΔΗΕ",
+   "kw": [
+    "δεδδηε",
+    "deddie",
+    "hedno"
+   ],
+   "tok": [
+    "deddie",
+    "hedno"
+   ],
+   "dom": [
+    "deddie.gr"
+   ]
+  },
+  {
+   "id": "eydap",
+   "name": "ΕΥΔΑΠ",
+   "kw": [
+    "ευδαπ",
+    "eydap"
+   ],
+   "tok": [
+    "eydap"
+   ],
+   "dom": [
+    "eydap.gr"
+   ]
+  },
+  {
+   "id": "eyath",
+   "name": "ΕΥΑΘ",
+   "kw": [
+    "ευαθ",
+    "eyath"
+   ],
+   "tok": [
+    "eyath"
+   ],
+   "dom": [
+    "eyath.gr"
+   ]
+  },
+  {
+   "id": "cosmote",
+   "name": "Cosmote",
+   "kw": [
+    "cosmote",
+    "κοσμοτε"
+   ],
+   "tok": [
+    "cosmote"
+   ],
+   "dom": [
+    "cosmote.gr",
+    "ote.gr"
+   ]
+  },
+  {
+   "id": "vodafone",
+   "name": "Vodafone",
+   "kw": [
+    "vodafone"
+   ],
+   "tok": [
+    "vodafone"
+   ],
+   "dom": [
+    "vodafone.gr",
+    "vodafone.com"
+   ]
+  },
+  {
+   "id": "nova",
+   "name": "Nova",
+   "kw": [
+    "nova",
+    "νοβα"
+   ],
+   "tok": [
+    "nova-gr",
+    "novagr"
+   ],
+   "dom": [
+    "nova.gr"
+   ]
+  },
+  {
+   "id": "opap",
+   "name": "ΟΠΑΠ",
+   "kw": [
+    "οπαπ",
+    "opap",
+    "pamestoixima",
+    "παμε στοιχημα"
+   ],
+   "tok": [
+    "opap",
+    "pamestoixima"
+   ],
+   "dom": [
+    "opap.gr",
+    "pamestoixima.gr"
+   ]
+  },
+  {
+   "id": "vinted",
+   "name": "Vinted",
+   "kw": [
+    "vinted"
+   ],
+   "tok": [
+    "vinted"
+   ],
+   "dom": [
+    "vinted.gr",
+    "vinted.com"
+   ]
+  },
+  {
+   "id": "cargr",
+   "name": "Car.gr",
+   "kw": [
+    "car.gr"
+   ],
+   "tok": [
+    "car-gr",
+    "cargr"
+   ],
+   "dom": [
+    "car.gr"
+   ]
+  },
+  {
+   "id": "xegr",
+   "name": "xe.gr",
+   "kw": [
+    "xe.gr"
+   ],
+   "tok": [
+    "xe-gr"
+   ],
+   "dom": [
+    "xe.gr"
+   ]
+  },
+  {
+   "id": "booking",
+   "name": "Booking.com",
+   "kw": [
+    "booking.com",
+    "booking"
+   ],
+   "tok": [
+    "booking"
+   ],
+   "dom": [
+    "booking.com"
+   ]
+  },
+  {
+   "id": "airbnb",
+   "name": "Airbnb",
+   "kw": [
+    "airbnb"
+   ],
+   "tok": [
+    "airbnb"
+   ],
+   "dom": [
+    "airbnb.com",
+    "airbnb.gr"
+   ]
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "kw": [
+    "amazon"
+   ],
+   "tok": [
+    "amazon",
+    "amzn"
+   ],
+   "dom": [
+    "amazon.com",
+    "amazon.de",
+    "amazon.co.uk",
+    "amazon.fr",
+    "amazon.it",
+    "amazon.es",
+    "amzn.to",
+    "amzn.eu"
+   ]
+  },
+  {
+   "id": "temu",
+   "name": "Temu",
+   "kw": [
+    "temu"
+   ],
+   "tok": [
+    "temu"
+   ],
+   "dom": [
+    "temu.com"
+   ]
+  },
+  {
+   "id": "shein",
+   "name": "SHEIN",
+   "kw": [
+    "shein"
+   ],
+   "tok": [
+    "shein"
+   ],
+   "dom": [
+    "shein.com"
+   ]
+  },
+  {
+   "id": "netflix",
+   "name": "Netflix",
+   "kw": [
+    "netflix"
+   ],
+   "tok": [
+    "netflix"
+   ],
+   "dom": [
+    "netflix.com"
+   ]
+  },
+  {
+   "id": "apple",
+   "name": "Apple / iCloud",
+   "kw": [
+    "apple id",
+    "icloud",
+    "apple pay",
+    "apple"
+   ],
+   "tok": [
+    "apple",
+    "icloud"
+   ],
+   "dom": [
+    "apple.com",
+    "icloud.com"
+   ]
+  },
+  {
+   "id": "google",
+   "name": "Google",
+   "kw": [
+    "google",
+    "gmail"
+   ],
+   "tok": [
+    "google",
+    "gmail"
+   ],
+   "dom": [
+    "google.com",
+    "google.gr",
+    "youtube.com",
+    "youtu.be",
+    "g.co",
+    "goo.gl"
+   ]
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "kw": [
+    "microsoft",
+    "outlook",
+    "hotmail",
+    "office 365"
+   ],
+   "tok": [
+    "microsoft",
+    "outlook",
+    "office365"
+   ],
+   "dom": [
+    "microsoft.com",
+    "live.com",
+    "outlook.com",
+    "office.com"
+   ]
+  },
+  {
+   "id": "meta",
+   "name": "Facebook / Instagram",
+   "kw": [
+    "facebook",
+    "instagram",
+    "meta"
+   ],
+   "tok": [
+    "facebook",
+    "instagram"
+   ],
+   "dom": [
+    "facebook.com",
+    "instagram.com",
+    "meta.com",
+    "fb.com",
+    "fb.me"
+   ]
+  },
+  {
+   "id": "whatsapp",
+   "name": "WhatsApp",
+   "kw": [
+    "whatsapp"
+   ],
+   "tok": [
+    "whatsapp"
+   ],
+   "dom": [
+    "whatsapp.com",
+    "wa.me"
+   ]
+  },
+  {
+   "id": "viber",
+   "name": "Viber",
+   "kw": [
+    "viber"
+   ],
+   "tok": [
+    "viber"
+   ],
+   "dom": [
+    "viber.com"
+   ]
+  },
+  {
+   "id": "usps",
+   "name": "USPS",
+   "kw": [
+    "usps",
+    "us postal service"
+   ],
+   "tok": [
+    "usps"
+   ],
+   "dom": [
+    "usps.com"
+   ]
+  },
+  {
+   "id": "royalmail",
+   "name": "Royal Mail",
+   "kw": [
+    "royal mail",
+    "royalmail"
+   ],
+   "tok": [
+    "royalmail",
+    "royal-mail"
+   ],
+   "dom": [
+    "royalmail.com"
+   ]
+  },
+  {
+   "id": "evri",
+   "name": "Evri",
+   "kw": [
+    "evri"
+   ],
+   "tok": [
+    "evri"
+   ],
+   "dom": [
+    "evri.com"
+   ]
+  },
+  {
+   "id": "yodel",
+   "name": "Yodel",
+   "kw": [
+    "yodel"
+   ],
+   "tok": [
+    "yodel"
+   ],
+   "dom": [
+    "yodel.co.uk"
+   ]
+  },
+  {
+   "id": "dpd",
+   "name": "DPD",
+   "kw": [
+    "dpd"
+   ],
+   "tok": [
+    "dpd"
+   ],
+   "dom": [
+    "dpd.com",
+    "dpd.co.uk",
+    "dpd.de",
+    "dpd.fr"
+   ]
+  },
+  {
+   "id": "gls",
+   "name": "GLS",
+   "kw": [
+    "gls"
+   ],
+   "tok": [
+    "gls-"
+   ],
+   "dom": [
+    "gls-group.com",
+    "gls-group.eu"
+   ]
+  },
+  {
+   "id": "hermes",
+   "name": "Hermes",
+   "kw": [
+    "hermes paket",
+    "myhermes"
+   ],
+   "tok": [
+    "myhermes",
+    "hermes-"
+   ],
+   "dom": [
+    "myhermes.de",
+    "hermesworld.com"
+   ]
+  },
+  {
+   "id": "dpost",
+   "name": "Deutsche Post",
+   "kw": [
+    "deutsche post"
+   ],
+   "tok": [
+    "deutschepost",
+    "deutsche-post"
+   ],
+   "dom": [
+    "deutschepost.de"
+   ]
+  },
+  {
+   "id": "postnl",
+   "name": "PostNL",
+   "kw": [
+    "postnl"
+   ],
+   "tok": [
+    "postnl"
+   ],
+   "dom": [
+    "postnl.nl",
+    "postnl.com"
+   ]
+  },
+  {
+   "id": "laposte",
+   "name": "La Poste / Colissimo",
+   "kw": [
+    "la poste",
+    "colissimo",
+    "chronopost"
+   ],
+   "tok": [
+    "laposte",
+    "colissimo",
+    "chronopost"
+   ],
+   "dom": [
+    "laposte.fr",
+    "laposte.net",
+    "colissimo.fr",
+    "chronopost.fr"
+   ]
+  },
+  {
+   "id": "correos",
+   "name": "Correos",
+   "kw": [
+    "correos"
+   ],
+   "tok": [
+    "correos"
+   ],
+   "dom": [
+    "correos.es"
+   ]
+  },
+  {
+   "id": "poste",
+   "name": "Poste Italiane",
+   "kw": [
+    "poste italiane",
+    "bancoposta",
+    "postepay"
+   ],
+   "tok": [
+    "posteitaliane",
+    "poste-italiane",
+    "postepay",
+    "bancoposta"
+   ],
+   "dom": [
+    "poste.it",
+    "posteitaliane.it"
+   ]
+  },
+  {
+   "id": "ctt",
+   "name": "CTT",
+   "kw": [
+    "ctt correios",
+    "ctt expresso"
+   ],
+   "tok": [
+    "ctt-"
+   ],
+   "dom": [
+    "ctt.pt"
+   ]
+  },
+  {
+   "id": "bpost",
+   "name": "bpost",
+   "kw": [
+    "bpost"
+   ],
+   "tok": [
+    "bpost"
+   ],
+   "dom": [
+    "bpost.be"
+   ]
+  },
+  {
+   "id": "swisspost",
+   "name": "Swiss Post",
+   "kw": [
+    "swiss post",
+    "die post"
+   ],
+   "tok": [
+    "swisspost"
+   ],
+   "dom": [
+    "post.ch"
+   ]
+  },
+  {
+   "id": "austriapost",
+   "name": "Österreichische Post",
+   "kw": [
+    "osterreichische post"
+   ],
+   "tok": [
+    "post-at"
+   ],
+   "dom": [
+    "post.at"
+   ]
+  },
+  {
+   "id": "postnord",
+   "name": "PostNord",
+   "kw": [
+    "postnord"
+   ],
+   "tok": [
+    "postnord"
+   ],
+   "dom": [
+    "postnord.com",
+    "postnord.se",
+    "postnord.dk"
+   ]
+  },
+  {
+   "id": "inpost",
+   "name": "InPost",
+   "kw": [
+    "inpost"
+   ],
+   "tok": [
+    "inpost"
+   ],
+   "dom": [
+    "inpost.pl",
+    "inpost.eu",
+    "inpost.co.uk"
+   ]
+  },
+  {
+   "id": "canadapost",
+   "name": "Canada Post",
+   "kw": [
+    "canada post",
+    "postes canada"
+   ],
+   "tok": [
+    "canadapost"
+   ],
+   "dom": [
+    "canadapost-postescanada.ca",
+    "canadapost.ca"
+   ]
+  },
+  {
+   "id": "auspost",
+   "name": "Australia Post",
+   "kw": [
+    "australia post",
+    "auspost"
+   ],
+   "tok": [
+    "auspost"
+   ],
+   "dom": [
+    "auspost.com.au"
+   ]
+  },
+  {
+   "id": "anpost",
+   "name": "An Post",
+   "kw": [
+    "an post"
+   ],
+   "tok": [
+    "anpost"
+   ],
+   "dom": [
+    "anpost.com"
+   ]
+  },
+  {
+   "id": "ukgov",
+   "name": "GOV.UK / HMRC / DVLA",
+   "kw": [
+    "hmrc",
+    "dvla",
+    "gov.uk"
+   ],
+   "tok": [
+    "hmrc",
+    "dvla",
+    "gov-uk",
+    "govuk"
+   ],
+   "dom": [
+    "gov.uk"
+   ]
+  },
+  {
+   "id": "irs",
+   "name": "IRS",
+   "kw": [
+    "irs",
+    "internal revenue service"
+   ],
+   "tok": [
+    "irs-"
+   ],
+   "dom": [
+    "irs.gov"
+   ]
+  },
+  {
+   "id": "usgov",
+   "name": "US government",
+   "kw": [
+    "social security administration",
+    "medicare",
+    "usps.gov"
+   ],
+   "tok": [
+    "ssa-gov"
+   ],
+   "dom": [
+    "ssa.gov",
+    "medicare.gov",
+    "gov"
+   ]
+  },
+  {
+   "id": "cra",
+   "name": "Canada Revenue Agency",
+   "kw": [
+    "canada revenue agency",
+    "cra"
+   ],
+   "tok": [
+    "cra-"
+   ],
+   "dom": [
+    "canada.ca"
+   ]
+  },
+  {
+   "id": "augov",
+   "name": "myGov / ATO",
+   "kw": [
+    "mygov",
+    "australian taxation office",
+    "ato"
+   ],
+   "tok": [
+    "mygov",
+    "ato-"
+   ],
+   "dom": [
+    "gov.au"
+   ]
+  },
+  {
+   "id": "frgov",
+   "name": "Impôts / Ameli / ANTAI",
+   "kw": [
+    "impots",
+    "impots.gouv",
+    "ameli",
+    "assurance maladie",
+    "antai",
+    "service-public",
+    "caf.fr"
+   ],
+   "tok": [
+    "impots",
+    "ameli",
+    "antai",
+    "gouv-fr"
+   ],
+   "dom": [
+    "gouv.fr",
+    "ameli.fr",
+    "service-public.fr"
+   ]
+  },
+  {
+   "id": "degov",
+   "name": "Finanzamt / ELSTER",
+   "kw": [
+    "finanzamt",
+    "elster",
+    "bundeszentralamt"
+   ],
+   "tok": [
+    "elster",
+    "finanzamt"
+   ],
+   "dom": [
+    "elster.de",
+    "bund.de"
+   ]
+  },
+  {
+   "id": "itgov",
+   "name": "Agenzia Entrate / INPS",
+   "kw": [
+    "agenzia delle entrate",
+    "agenzia entrate",
+    "inps"
+   ],
+   "tok": [
+    "agenziaentrate",
+    "inps-"
+   ],
+   "dom": [
+    "gov.it",
+    "agenziaentrate.gov.it",
+    "inps.it"
+   ]
+  },
+  {
+   "id": "esgov",
+   "name": "Agencia Tributaria / DGT",
+   "kw": [
+    "agencia tributaria",
+    "hacienda",
+    "dgt"
+   ],
+   "tok": [
+    "agenciatributaria",
+    "aeat",
+    "dgt-"
+   ],
+   "dom": [
+    "agenciatributaria.gob.es",
+    "agenciatributaria.es",
+    "dgt.es",
+    "gob.es"
+   ]
+  },
+  {
+   "id": "ptgov",
+   "name": "Portal das Finanças",
+   "kw": [
+    "portal das financas",
+    "autoridade tributaria",
+    "seguranca social"
+   ],
+   "tok": [
+    "portaldasfinancas"
+   ],
+   "dom": [
+    "gov.pt",
+    "portaldasfinancas.gov.pt",
+    "seg-social.pt"
+   ]
+  },
+  {
+   "id": "cygov",
+   "name": "gov.cy",
+   "kw": [
+    "gov.cy"
+   ],
+   "tok": [
+    "gov-cy"
+   ],
+   "dom": [
+    "gov.cy"
+   ]
+  },
+  {
+   "id": "ezpass",
+   "name": "E-ZPass",
+   "kw": [
+    "e-zpass",
+    "ezpass"
+   ],
+   "tok": [
+    "ezpass",
+    "e-zpass"
+   ],
+   "dom": [
+    "e-zpassny.com",
+    "ezpassnj.com",
+    "ezpassva.com",
+    "ezpassmd.com",
+    "e-zpassiag.com",
+    "ezpassde.com"
+   ]
+  },
+  {
+   "id": "sunpass",
+   "name": "SunPass",
+   "kw": [
+    "sunpass"
+   ],
+   "tok": [
+    "sunpass"
+   ],
+   "dom": [
+    "sunpass.com"
+   ]
+  },
+  {
+   "id": "fastrak",
+   "name": "FasTrak",
+   "kw": [
+    "fastrak"
+   ],
+   "tok": [
+    "fastrak"
+   ],
+   "dom": [
+    "bayareafastrak.org",
+    "thetollroads.com"
+   ]
+  },
+  {
+   "id": "txtag",
+   "name": "TxTag",
+   "kw": [
+    "txtag"
+   ],
+   "tok": [
+    "txtag"
+   ],
+   "dom": [
+    "txtag.org"
+   ]
+  },
+  {
+   "id": "chase",
+   "name": "Chase",
+   "kw": [
+    "chase bank",
+    "jpmorgan chase",
+    "chase alert",
+    "chase fraud"
+   ],
+   "tok": [
+    "chase-",
+    "jpmchase"
+   ],
+   "dom": [
+    "chase.com",
+    "jpmorganchase.com"
+   ]
+  },
+  {
+   "id": "bofa",
+   "name": "Bank of America",
+   "kw": [
+    "bank of america",
+    "bofa"
+   ],
+   "tok": [
+    "bankofamerica",
+    "bofa-"
+   ],
+   "dom": [
+    "bankofamerica.com",
+    "bofa.com"
+   ]
+  },
+  {
+   "id": "wellsfargo",
+   "name": "Wells Fargo",
+   "kw": [
+    "wells fargo"
+   ],
+   "tok": [
+    "wellsfargo",
+    "wells-fargo"
+   ],
+   "dom": [
+    "wellsfargo.com"
+   ]
+  },
+  {
+   "id": "citi",
+   "name": "Citi",
+   "kw": [
+    "citibank",
+    "citi card"
+   ],
+   "tok": [
+    "citibank"
+   ],
+   "dom": [
+    "citi.com",
+    "citibank.com"
+   ]
+  },
+  {
+   "id": "capitalone",
+   "name": "Capital One",
+   "kw": [
+    "capital one"
+   ],
+   "tok": [
+    "capitalone"
+   ],
+   "dom": [
+    "capitalone.com"
+   ]
+  },
+  {
+   "id": "amex",
+   "name": "American Express",
+   "kw": [
+    "american express",
+    "amex"
+   ],
+   "tok": [
+    "americanexpress",
+    "amex-"
+   ],
+   "dom": [
+    "americanexpress.com",
+    "aexp.com"
+   ]
+  },
+  {
+   "id": "hsbc",
+   "name": "HSBC",
+   "kw": [
+    "hsbc"
+   ],
+   "tok": [
+    "hsbc"
+   ],
+   "dom": [
+    "hsbc.com",
+    "hsbc.co.uk"
+   ]
+  },
+  {
+   "id": "barclays",
+   "name": "Barclays",
+   "kw": [
+    "barclays"
+   ],
+   "tok": [
+    "barclays"
+   ],
+   "dom": [
+    "barclays.co.uk",
+    "barclays.com"
+   ]
+  },
+  {
+   "id": "lloyds",
+   "name": "Lloyds",
+   "kw": [
+    "lloyds bank",
+    "lloyds"
+   ],
+   "tok": [
+    "lloydsbank",
+    "lloyds-"
+   ],
+   "dom": [
+    "lloydsbank.com",
+    "lloydsbank.co.uk"
+   ]
+  },
+  {
+   "id": "natwest",
+   "name": "NatWest",
+   "kw": [
+    "natwest"
+   ],
+   "tok": [
+    "natwest"
+   ],
+   "dom": [
+    "natwest.com"
+   ]
+  },
+  {
+   "id": "halifax",
+   "name": "Halifax",
+   "kw": [
+    "halifax bank"
+   ],
+   "tok": [
+    "halifax-"
+   ],
+   "dom": [
+    "halifax.co.uk"
+   ]
+  },
+  {
+   "id": "monzo",
+   "name": "Monzo",
+   "kw": [
+    "monzo"
+   ],
+   "tok": [
+    "monzo"
+   ],
+   "dom": [
+    "monzo.com"
+   ]
+  },
+  {
+   "id": "santander",
+   "name": "Santander",
+   "kw": [
+    "santander"
+   ],
+   "tok": [
+    "santander"
+   ],
+   "dom": [
+    "santander.com",
+    "santander.co.uk",
+    "bancosantander.es",
+    "santander.de",
+    "santander.pt"
+   ]
+  },
+  {
+   "id": "sparkasse",
+   "name": "Sparkasse",
+   "kw": [
+    "sparkasse"
+   ],
+   "tok": [
+    "sparkasse"
+   ],
+   "dom": [
+    "sparkasse.de"
+   ]
+  },
+  {
+   "id": "deutschebank",
+   "name": "Deutsche Bank",
+   "kw": [
+    "deutsche bank"
+   ],
+   "tok": [
+    "deutschebank",
+    "deutsche-bank"
+   ],
+   "dom": [
+    "deutsche-bank.de",
+    "db.com"
+   ]
+  },
+  {
+   "id": "commerzbank",
+   "name": "Commerzbank",
+   "kw": [
+    "commerzbank"
+   ],
+   "tok": [
+    "commerzbank"
+   ],
+   "dom": [
+    "commerzbank.de"
+   ]
+  },
+  {
+   "id": "volksbank",
+   "name": "Volksbank",
+   "kw": [
+    "volksbank",
+    "raiffeisenbank"
+   ],
+   "tok": [
+    "volksbank"
+   ],
+   "dom": [
+    "vr.de",
+    "volksbank.de"
+   ]
+  },
+  {
+   "id": "postbank",
+   "name": "Postbank",
+   "kw": [
+    "postbank"
+   ],
+   "tok": [
+    "postbank"
+   ],
+   "dom": [
+    "postbank.de"
+   ]
+  },
+  {
+   "id": "dkb",
+   "name": "DKB",
+   "kw": [
+    "dkb"
+   ],
+   "tok": [
+    "dkb-"
+   ],
+   "dom": [
+    "dkb.de"
+   ]
+  },
+  {
+   "id": "ing",
+   "name": "ING",
+   "kw": [
+    "ing bank",
+    "ing-diba"
+   ],
+   "tok": [
+    "ing-bank",
+    "ingbank",
+    "ing-diba"
+   ],
+   "dom": [
+    "ing.com",
+    "ing.de",
+    "ing.nl",
+    "ing.es",
+    "ing.be",
+    "ing.it"
+   ]
+  },
+  {
+   "id": "n26",
+   "name": "N26",
+   "kw": [
+    "n26"
+   ],
+   "tok": [
+    "n26"
+   ],
+   "dom": [
+    "n26.com"
+   ]
+  },
+  {
+   "id": "bnp",
+   "name": "BNP Paribas",
+   "kw": [
+    "bnp paribas",
+    "bnp"
+   ],
+   "tok": [
+    "bnpparibas",
+    "bnp-"
+   ],
+   "dom": [
+    "bnpparibas.com",
+    "bnpparibas.fr",
+    "bnpparibas"
+   ]
+  },
+  {
+   "id": "ca",
+   "name": "Crédit Agricole",
+   "kw": [
+    "credit agricole"
+   ],
+   "tok": [
+    "credit-agricole",
+    "creditagricole"
+   ],
+   "dom": [
+    "credit-agricole.fr",
+    "credit-agricole.com"
+   ]
+  },
+  {
+   "id": "sg",
+   "name": "Société Générale",
+   "kw": [
+    "societe generale"
+   ],
+   "tok": [
+    "societegenerale"
+   ],
+   "dom": [
+    "societegenerale.fr",
+    "sg.fr"
+   ]
+  },
+  {
+   "id": "lbp",
+   "name": "La Banque Postale",
+   "kw": [
+    "banque postale"
+   ],
+   "tok": [
+    "labanquepostale"
+   ],
+   "dom": [
+    "labanquepostale.fr"
+   ]
+  },
+  {
+   "id": "lcl",
+   "name": "LCL",
+   "kw": [
+    "lcl"
+   ],
+   "tok": [
+    "lcl-"
+   ],
+   "dom": [
+    "lcl.fr"
+   ]
+  },
+  {
+   "id": "cepargne",
+   "name": "Caisse d'Epargne",
+   "kw": [
+    "caisse d'epargne",
+    "caisse depargne"
+   ],
+   "tok": [
+    "caisse-epargne"
+   ],
+   "dom": [
+    "caisse-epargne.fr"
+   ]
+  },
+  {
+   "id": "intesa",
+   "name": "Intesa Sanpaolo",
+   "kw": [
+    "intesa sanpaolo",
+    "intesa"
+   ],
+   "tok": [
+    "intesasanpaolo",
+    "intesa-"
+   ],
+   "dom": [
+    "intesasanpaolo.com"
+   ]
+  },
+  {
+   "id": "unicredit",
+   "name": "UniCredit",
+   "kw": [
+    "unicredit"
+   ],
+   "tok": [
+    "unicredit"
+   ],
+   "dom": [
+    "unicredit.it",
+    "unicredit.eu"
+   ]
+  },
+  {
+   "id": "bbva",
+   "name": "BBVA",
+   "kw": [
+    "bbva"
+   ],
+   "tok": [
+    "bbva"
+   ],
+   "dom": [
+    "bbva.es",
+    "bbva.com"
+   ]
+  },
+  {
+   "id": "caixabank",
+   "name": "CaixaBank",
+   "kw": [
+    "caixabank",
+    "la caixa"
+   ],
+   "tok": [
+    "caixabank"
+   ],
+   "dom": [
+    "caixabank.es",
+    "caixabank.com"
+   ]
+  },
+  {
+   "id": "sabadell",
+   "name": "Banco Sabadell",
+   "kw": [
+    "sabadell"
+   ],
+   "tok": [
+    "sabadell"
+   ],
+   "dom": [
+    "bancsabadell.com"
+   ]
+  },
+  {
+   "id": "abnamro",
+   "name": "ABN AMRO",
+   "kw": [
+    "abn amro"
+   ],
+   "tok": [
+    "abnamro"
+   ],
+   "dom": [
+    "abnamro.nl",
+    "abnamro.com"
+   ]
+  },
+  {
+   "id": "rabobank",
+   "name": "Rabobank",
+   "kw": [
+    "rabobank"
+   ],
+   "tok": [
+    "rabobank"
+   ],
+   "dom": [
+    "rabobank.nl",
+    "rabobank.com"
+   ]
+  },
+  {
+   "id": "cgd",
+   "name": "Caixa Geral de Depósitos",
+   "kw": [
+    "caixa geral",
+    "cgd"
+   ],
+   "tok": [
+    "cgd-"
+   ],
+   "dom": [
+    "cgd.pt"
+   ]
+  },
+  {
+   "id": "millennium",
+   "name": "Millennium bcp",
+   "kw": [
+    "millennium bcp",
+    "millenniumbcp"
+   ],
+   "tok": [
+    "millenniumbcp"
+   ],
+   "dom": [
+    "millenniumbcp.pt"
+   ]
+  },
+  {
+   "id": "wise",
+   "name": "Wise",
+   "kw": [
+    "wise transfer",
+    "transferwise"
+   ],
+   "tok": [
+    "transferwise",
+    "wise-"
+   ],
+   "dom": [
+    "wise.com"
+   ]
+  },
+  {
+   "id": "coinbase",
+   "name": "Coinbase",
+   "kw": [
+    "coinbase"
+   ],
+   "tok": [
+    "coinbase"
+   ],
+   "dom": [
+    "coinbase.com"
+   ]
+  },
+  {
+   "id": "binance",
+   "name": "Binance",
+   "kw": [
+    "binance"
+   ],
+   "tok": [
+    "binance"
+   ],
+   "dom": [
+    "binance.com"
+   ]
+  },
+  {
+   "id": "metamask",
+   "name": "MetaMask",
+   "kw": [
+    "metamask"
+   ],
+   "tok": [
+    "metamask"
+   ],
+   "dom": [
+    "metamask.io"
+   ]
+  },
+  {
+   "id": "ledger",
+   "name": "Ledger",
+   "kw": [
+    "ledger live",
+    "ledger wallet"
+   ],
+   "tok": [
+    "ledger-"
+   ],
+   "dom": [
+    "ledger.com"
+   ]
+  },
+  {
+   "id": "trezor",
+   "name": "Trezor",
+   "kw": [
+    "trezor"
+   ],
+   "tok": [
+    "trezor"
+   ],
+   "dom": [
+    "trezor.io"
+   ]
+  },
+  {
+   "id": "cryptocom",
+   "name": "Crypto.com",
+   "kw": [
+    "crypto.com"
+   ],
+   "tok": [
+    "cryptocom",
+    "crypto-com"
+   ],
+   "dom": [
+    "crypto.com"
+   ]
+  },
+  {
+   "id": "kraken",
+   "name": "Kraken",
+   "kw": [
+    "kraken"
+   ],
+   "tok": [
+    "kraken"
+   ],
+   "dom": [
+    "kraken.com"
+   ]
+  },
+  {
+   "id": "att",
+   "name": "AT&T",
+   "kw": [
+    "at&t"
+   ],
+   "tok": [
+    "att-"
+   ],
+   "dom": [
+    "att.com"
+   ]
+  },
+  {
+   "id": "verizon",
+   "name": "Verizon",
+   "kw": [
+    "verizon"
+   ],
+   "tok": [
+    "verizon"
+   ],
+   "dom": [
+    "verizon.com"
+   ]
+  },
+  {
+   "id": "tmobile",
+   "name": "T-Mobile",
+   "kw": [
+    "t-mobile"
+   ],
+   "tok": [
+    "tmobile",
+    "t-mobile"
+   ],
+   "dom": [
+    "t-mobile.com"
+   ]
+  },
+  {
+   "id": "telekom",
+   "name": "Telekom",
+   "kw": [
+    "telekom"
+   ],
+   "tok": [
+    "telekom"
+   ],
+   "dom": [
+    "telekom.de"
+   ]
+  },
+  {
+   "id": "orange",
+   "name": "Orange",
+   "kw": [
+    "espace client orange",
+    "orange.fr"
+   ],
+   "tok": [
+    "orange-"
+   ],
+   "dom": [
+    "orange.fr",
+    "orange.com"
+   ]
+  },
+  {
+   "id": "sfr",
+   "name": "SFR",
+   "kw": [
+    "sfr"
+   ],
+   "tok": [
+    "sfr-"
+   ],
+   "dom": [
+    "sfr.fr"
+   ]
+  },
+  {
+   "id": "tim",
+   "name": "TIM",
+   "kw": [
+    "tim mobile"
+   ],
+   "tok": [
+    "tim-"
+   ],
+   "dom": [
+    "tim.it"
+   ]
+  },
+  {
+   "id": "movistar",
+   "name": "Movistar",
+   "kw": [
+    "movistar"
+   ],
+   "tok": [
+    "movistar"
+   ],
+   "dom": [
+    "movistar.es"
+   ]
+  },
+  {
+   "id": "ee",
+   "name": "EE",
+   "kw": [
+    "ee mobile"
+   ],
+   "tok": [
+    "ee-"
+   ],
+   "dom": [
+    "ee.co.uk"
+   ]
+  },
+  {
+   "id": "o2",
+   "name": "O2",
+   "kw": [
+    "o2 uk"
+   ],
+   "tok": [
+    "o2-"
+   ],
+   "dom": [
+    "o2.co.uk"
+   ]
+  },
+  {
+   "id": "ebay",
+   "name": "eBay",
+   "kw": [
+    "ebay"
+   ],
+   "tok": [
+    "ebay"
+   ],
+   "dom": [
+    "ebay.com",
+    "ebay.co.uk",
+    "ebay.de",
+    "ebay.fr",
+    "ebay.it",
+    "ebay.es"
+   ]
+  },
+  {
+   "id": "olx",
+   "name": "OLX",
+   "kw": [
+    "olx"
+   ],
+   "tok": [
+    "olx"
+   ],
+   "dom": [
+    "olx.pl",
+    "olx.ro",
+    "olx.pt",
+    "olx.bg",
+    "olx.ua",
+    "olx.com"
+   ]
+  },
+  {
+   "id": "allegro",
+   "name": "Allegro",
+   "kw": [
+    "allegro"
+   ],
+   "tok": [
+    "allegro"
+   ],
+   "dom": [
+    "allegro.pl"
+   ]
+  },
+  {
+   "id": "wallapop",
+   "name": "Wallapop",
+   "kw": [
+    "wallapop"
+   ],
+   "tok": [
+    "wallapop"
+   ],
+   "dom": [
+    "wallapop.com"
+   ]
+  },
+  {
+   "id": "marktplaats",
+   "name": "Marktplaats",
+   "kw": [
+    "marktplaats"
+   ],
+   "tok": [
+    "marktplaats"
+   ],
+   "dom": [
+    "marktplaats.nl"
+   ]
+  },
+  {
+   "id": "leboncoin",
+   "name": "Leboncoin",
+   "kw": [
+    "leboncoin"
+   ],
+   "tok": [
+    "leboncoin"
+   ],
+   "dom": [
+    "leboncoin.fr"
+   ]
+  },
+  {
+   "id": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "kw": [
+    "kleinanzeigen"
+   ],
+   "tok": [
+    "kleinanzeigen"
+   ],
+   "dom": [
+    "kleinanzeigen.de"
+   ]
+  },
+  {
+   "id": "subito",
+   "name": "Subito",
+   "kw": [
+    "subito.it"
+   ],
+   "tok": [
+    "subito-"
+   ],
+   "dom": [
+    "subito.it"
+   ]
+  },
+  {
+   "id": "aliexpress",
+   "name": "AliExpress",
+   "kw": [
+    "aliexpress"
+   ],
+   "tok": [
+    "aliexpress"
+   ],
+   "dom": [
+    "aliexpress.com"
+   ]
+  },
+  {
+   "id": "walmart",
+   "name": "Walmart",
+   "kw": [
+    "walmart"
+   ],
+   "tok": [
+    "walmart"
+   ],
+   "dom": [
+    "walmart.com"
+   ]
+  },
+  {
+   "id": "disney",
+   "name": "Disney+",
+   "kw": [
+    "disney+",
+    "disney plus",
+    "disneyplus"
+   ],
+   "tok": [
+    "disneyplus"
+   ],
+   "dom": [
+    "disneyplus.com",
+    "disney.com"
+   ]
+  },
+  {
+   "id": "spotify",
+   "name": "Spotify",
+   "kw": [
+    "spotify premium",
+    "spotify account"
+   ],
+   "tok": [
+    "spotify"
+   ],
+   "dom": [
+    "spotify.com"
+   ]
+  },
+  {
+   "id": "steam",
+   "name": "Steam",
+   "kw": [
+    "steam account",
+    "steam guard",
+    "steamcommunity",
+    "steam support"
+   ],
+   "tok": [
+    "steamcommunity",
+    "steampowered",
+    "steam-"
+   ],
+   "dom": [
+    "steampowered.com",
+    "steamcommunity.com"
+   ]
+  },
+  {
+   "id": "docusign",
+   "name": "DocuSign",
+   "kw": [
+    "docusign"
+   ],
+   "tok": [
+    "docusign"
+   ],
+   "dom": [
+    "docusign.com",
+    "docusign.net"
+   ]
+  },
+  {
+   "id": "dropbox",
+   "name": "Dropbox",
+   "kw": [
+    "dropbox"
+   ],
+   "tok": [
+    "dropbox"
+   ],
+   "dom": [
+    "dropbox.com"
+   ]
+  },
+  {
+   "id": "adobe",
+   "name": "Adobe",
+   "kw": [
+    "adobe"
+   ],
+   "tok": [
+    "adobe"
+   ],
+   "dom": [
+    "adobe.com"
+   ]
+  },
+  {
+   "id": "telegram",
+   "name": "Telegram",
+   "kw": [
+    "telegram support",
+    "telegram premium"
+   ],
+   "tok": [
+    "telegram"
+   ],
+   "dom": [
+    "telegram.org",
+    "t.me"
+   ]
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "kw": [
+    "tiktok support",
+    "tiktok shop"
+   ],
+   "tok": [
+    "tiktok"
+   ],
+   "dom": [
+    "tiktok.com"
+   ]
+  }
+ ],
+ "shorteners": [
+  "bit.ly",
+  "tinyurl.com",
+  "t.ly",
+  "cutt.ly",
+  "is.gd",
+  "rb.gy",
+  "shorturl.at",
+  "goo.su",
+  "ow.ly",
+  "s.id",
+  "tiny.cc",
+  "rebrand.ly",
+  "u.to",
+  "v.gd",
+  "t.co",
+  "shorturl.me",
+  "bit.do",
+  "lnkd.in",
+  "qrco.de",
+  "linktr.ee",
+  "short.gy",
+  "tiny.one",
+  "bl.ink",
+  "surl.li",
+  "clck.ru",
+  "x.gd"
+ ],
+ "freeHosts": [
+  "pages.dev",
+  "workers.dev",
+  "netlify.app",
+  "vercel.app",
+  "web.app",
+  "firebaseapp.com",
+  "github.io",
+  "glitch.me",
+  "weebly.com",
+  "wixsite.com",
+  "blogspot.com",
+  "000webhostapp.com",
+  "ngrok.io",
+  "ngrok-free.app",
+  "duckdns.org",
+  "r2.dev",
+  "storage.googleapis.com",
+  "sites.google.com",
+  "framer.app",
+  "webflow.io",
+  "square.site",
+  "godaddysites.com",
+  "replit.app",
+  "onrender.com",
+  "herokuapp.com",
+  "surge.sh",
+  "myshopify.com",
+  "jimdosite.com",
+  "wordpress.com",
+  "mystrikingly.com",
+  "firebasestorage.googleapis.com",
+  "ipfs.io",
+  "dweb.link",
+  "trycloudflare.com"
+ ],
+ "riskyTlds": [
+  "top",
+  "xyz",
+  "icu",
+  "cfd",
+  "sbs",
+  "click",
+  "buzz",
+  "live",
+  "shop",
+  "online",
+  "site",
+  "vip",
+  "bond",
+  "rest",
+  "lat",
+  "cyou",
+  "monster",
+  "quest",
+  "win",
+  "ink",
+  "help",
+  "support",
+  "xin",
+  "asia",
+  "cc",
+  "su",
+  "tk",
+  "ml",
+  "ga",
+  "cf",
+  "gq",
+  "pw",
+  "mom",
+  "beauty",
+  "hair",
+  "skin",
+  "autos",
+  "boats",
+  "homes",
+  "motorcycles",
+  "yachts",
+  "makeup",
+  "lol",
+  "fun",
+  "today",
+  "life",
+  "world",
+  "info",
+  "biz",
+  "club",
+  "work",
+  "link",
+  "digital",
+  "store",
+  "space",
+  "website",
+  "host",
+  "pics",
+  "loan",
+  "racing",
+  "date",
+  "download",
+  "stream",
+  "cam",
+  "mobi",
+  "run",
+  "claims",
+  "finance",
+  "services",
+  "center",
+  "delivery",
+  "express"
+ ],
+ "tlds": [
+  "ae",
+  "agency",
+  "ai",
+  "al",
+  "am",
+  "app",
+  "ar",
+  "asia",
+  "at",
+  "au",
+  "autos",
+  "az",
+  "ba",
+  "bank",
+  "be",
+  "beauty",
+  "bg",
+  "biz",
+  "boats",
+  "bond",
+  "br",
+  "buzz",
+  "by",
+  "ca",
+  "cam",
+  "cash",
+  "cc",
+  "center",
+  "cf",
+  "cfd",
+  "ch",
+  "cl",
+  "claims",
+  "click",
+  "club",
+  "cm",
+  "cn",
+  "co",
+  "com",
+  "cx",
+  "cy",
+  "cyou",
+  "cz",
+  "date",
+  "de",
+  "delivery",
+  "dev",
+  "digital",
+  "dk",
+  "do",
+  "download",
+  "ee",
+  "email",
+  "es",
+  "eu",
+  "express",
+  "fi",
+  "finance",
+  "fm",
+  "fr",
+  "fun",
+  "ga",
+  "gd",
+  "ge",
+  "gl",
+  "global",
+  "gouv",
+  "gov",
+  "gq",
+  "gr",
+  "group",
+  "hair",
+  "help",
+  "hk",
+  "homes",
+  "host",
+  "hr",
+  "hu",
+  "icu",
+  "id",
+  "ie",
+  "il",
+  "in",
+  "info",
+  "ink",
+  "io",
+  "is",
+  "it",
+  "jp",
+  "kr",
+  "kz",
+  "la",
+  "lat",
+  "li",
+  "life",
+  "link",
+  "live",
+  "loan",
+  "lol",
+  "lt",
+  "lu",
+  "lv",
+  "ly",
+  "makeup",
+  "md",
+  "me",
+  "media",
+  "mk",
+  "ml",
+  "mobi",
+  "mom",
+  "money",
+  "monster",
+  "motorcycles",
+  "mt",
+  "mx",
+  "my",
+  "name",
+  "net",
+  "network",
+  "news",
+  "ng",
+  "nl",
+  "no",
+  "nu",
+  "nz",
+  "online",
+  "org",
+  "page",
+  "pay",
+  "pe",
+  "ph",
+  "pics",
+  "pk",
+  "pl",
+  "pro",
+  "pt",
+  "pw",
+  "qa",
+  "quest",
+  "racing",
+  "re",
+  "rest",
+  "ro",
+  "rs",
+  "ru",
+  "run",
+  "sa",
+  "sbs",
+  "se",
+  "services",
+  "sg",
+  "shop",
+  "si",
+  "site",
+  "sk",
+  "skin",
+  "so",
+  "solutions",
+  "space",
+  "st",
+  "store",
+  "stream",
+  "su",
+  "support",
+  "tech",
+  "th",
+  "tk",
+  "to",
+  "today",
+  "top",
+  "tr",
+  "tv",
+  "ua",
+  "uk",
+  "us",
+  "ve",
+  "vip",
+  "vn",
+  "website",
+  "win",
+  "work",
+  "world",
+  "ws",
+  "xin",
+  "xyz",
+  "yachts",
+  "za"
+ ],
+ "multiSuffixes": [
+  "com.gr",
+  "gov.gr",
+  "edu.gr",
+  "org.gr",
+  "net.gr",
+  "co.uk",
+  "org.uk",
+  "gov.uk",
+  "ac.uk",
+  "com.cy",
+  "gov.cy",
+  "com.au",
+  "co.jp",
+  "com.br",
+  "co.in",
+  "com.tr",
+  "com.ph",
+  "co.za",
+  "com.ng",
+  "com.cn",
+  "com.ru",
+  "co.id",
+  "com.mx",
+  "com.ar",
+  "co.nz",
+  "com.sg",
+  "com.hk",
+  "com.my"
+ ],
+ "patterns": [
+  {
+   "id": "otp",
+   "w": 60,
+   "re": "(στειλ|δωσ|πεσ|πει|γραψ|προωθησ|υπαγορευσ|send|give|tell|forward|share|read|schick|sende|gib|teil|nenn|envoie|envoyez|donne|donnez|communiquez|transmettez|invia|manda|dammi|comunica|envia|manda|dame|dime|reenvia|envie|mande|passa)[\\p{L}\\p{N}_]*.{0,30}(κωδικ|code|otp|pin|codigo|codice|tan)",
+   "neg": "(μην?|ποτε|κανενα|never|do not|don'?t|not|nie|niemals|nicht|jamais|ne|non|mai|nunca|no|nao)\\s.{0,25}$",
+   "el": "Σου ζητάει να δώσεις κωδικό. Κανείς σωστός (τράπεζα, courier, φίλος) δεν ζητάει ποτέ τον κωδικό που σου ήρθε.",
+   "en": "It asks you to give a code. No genuine bank, courier or friend ever asks for a code you received."
+  },
+  {
+   "id": "family",
+   "w": 55,
+   "re": "(μαμα|μανα|μπαμπα|γιαγια|παππου|θεια|θειε|mum|mom|dad|grandma|grandpa|mama|papa|oma|opa|mutti|maman|mamma|mae|pai|papi|mami)\\W.{0,100}(νεο (μου )?(νουμερο|αριθμο|κινητο)|καινουρ?γιο (μου )?(νουμερο|κινητο)|εσπασε|χαλασε|επεσε|εχασα|new number|new phone|lost my phone|broke|neue nummer|neues handy|handy [\\p{L}\\p{N}_]* ?kaputt|nouveau numero|telephone [\\p{L}\\p{N}_]* ?casse|nuovo numero|telefono rotto|cellulare rotto|numero nuevo|nuevo numero|movil roto|se me rompio|telefono roto|numero novo|novo numero|telemovel avariado|celular quebrou)",
+   "el": "Το κλασικό «μαμά, άλλαξα κινητό». Πάρε τηλέφωνο το παιδί σου στο ΠΑΛΙΟ του νούμερο πριν κάνεις οτιδήποτε.",
+   "en": "The classic 'Mum, this is my new number'. Call your child on their OLD number before doing anything."
+  },
+  {
+   "id": "newnum",
+   "w": 40,
+   "re": "(αυτο ειναι το (νεο|καινουρ?γιο) μου|σωσε (αυτο|το νεο)|αποθηκευσε (αυτο|το νεο)|this is my new number|save this number|das ist meine neue nummer|speicher[\\p{L}\\p{N}_]* (diese|meine neue) nummer|c'?est mon nouveau numero|questo e il mio nuovo numero|este es mi nuevo numero|este e o meu novo numero|guarda este numero)",
+   "el": "Κάποιος λέει ότι άλλαξε νούμερο. Βεβαιώσου τηλεφωνώντας στο παλιό.",
+   "en": "Someone claims a new number. Check by calling the old one."
+  },
+  {
+   "id": "money",
+   "w": 30,
+   "re": "(?:(στειλε|στειλτε|καταθεσε|καταθεστε|μεταφερε|πληρωσε μου|δανεισε|send|transfer|wire|lend|uberweis|schick mir|leih mir|envoie-moi|envoyez|vire|preste-moi|inviami|mandami|prestami|fai un bonifico|enviame|mandame|prestame|haz un bizum|transfere|empresta)[\\p{L}\\p{N}_]*.{0,40}(χρηματα|λεφτα|ποσο|iban|iris|money|ευρω|€|\\d+ ?e\\b|geld|argent|virement|soldi|bonifico|dinero|transferencia|bizum|dinheiro|pix|mbway))|(?:\\d+ ?(€|ευρω|euro|eur|\\$|£).{0,30}(uberweis|schick|send|envoy|invi|envi|manda|transf|στειλ|καταθεσ))",
+   "el": "Ζητάει να στείλεις χρήματα.",
+   "en": "It asks you to send money."
+  },
+  {
+   "id": "cred",
+   "w": 35,
+   "re": "(στοιχεια (τησ )?καρτασ|αριθμο (τησ )?καρτασ|cvv|cvc|ημερομηνια ληξησ|κωδικ[\\p{L}\\p{N}_]* (e-?banking|web banking|προσβασησ|τραπεζ)|username|συνθηματικ|(ενημερωσ|επιβεβαιωσ|επαληθευσ|επικυρωσ|συμπληρωσ)[\\p{L}\\p{N}_]* (τα |των )?στοιχει|verify your|confirm your|update your (details|account|payment|information)|card details|login details|zugangsdaten|kartendaten|bestatigen sie ihre (daten|identitat|angaben)|aktualisieren sie ihre (daten|angaben)|verifizieren sie|coordonnees bancaires|confirmez vos (informations|donnees|coordonnees)|mettez a jour vos (informations|donnees)|identifiants|dati della carta|conferma i tuoi dati|aggiorna i tuoi dati|credenziali|datos de (la|su) tarjeta|confirme sus datos|actualice sus datos|verifique su identidad|credenciales|dados do cartao|confirme os seus dados|atualize os seus dados|credenciais)",
+   "el": "Ζητάει στοιχεία κάρτας ή κωδικούς. Οι τράπεζες και οι υπηρεσίες δεν τα ζητάνε ποτέ με μήνυμα.",
+   "en": "It asks for card details or passwords. Banks and services never ask for these by message."
+  },
+  {
+   "id": "acctblock",
+   "w": 30,
+   "re": "(λογαριασμ|καρτα|συνδρομ|account|card|subscription|wallet|πορτοφολ|konto|karte|compte|carte|conto|carta|cuenta|tarjeta|conta|cartao)[\\p{L}\\p{N}_]*.{0,50}(μπλοκ|κλειδω|αναστολ|απενεργοποι|παγω|δεσμευ|περιορισ|λη[γξ]|suspend|locked|blocked|deactivat|restricted|expire|gesperrt|eingeschrankt|deaktiviert|bloque|suspendu|desactive|bloccat|sospes|bloquead|suspendid|bloqueada|suspensa|desativad)",
+   "el": "Σε τρομάζει ότι κλείνει ο λογαριασμός ή η κάρτα σου, για να βιαστείς.",
+   "en": "It scares you that your account or card is being blocked, so you hurry."
+  },
+  {
+   "id": "parcel",
+   "w": 30,
+   "re": "(δεμα|δεματοσ|αποστολ|παραδοσ|παραγγελι|package|parcel|delivery|shipment|paket|sendung|lieferung|colis|livraison|pacco|spedizione|consegna|paquete|envio|entrega|encomenda).{0,80}(δεν|αποτυχ|εκκρεμ|σταματ|αδυνα|επιστρεφ|κρατ|failed|unable|on hold|suspended|pending|returned|missed|nicht zugestellt|konnte nicht|fehlgeschlagen|zuruckgehalten|en attente|pas pu|n'a pas pu|echec|non e stat|non consegnat|in giacenza|no se pudo|no ha podido|retenid|pendiente|nao foi|retida|pendente)",
+   "el": "«Το δέμα σου δεν παραδόθηκε»: η πιο συχνή απάτη. Οι courier δεν ζητάνε πληρωμή με link σε SMS.",
+   "en": "'Your parcel could not be delivered' is the most common scam. Couriers don't ask for payment via a link in a text."
+  },
+  {
+   "id": "fee",
+   "w": 25,
+   "re": "(τελωνει|εκτελωνισ|ταχυδρομικα τελη|τελη (αποστολησ|επαναποστολησ|αποθηκευσησ)|μεταφορικα|customs|shipping fee|redelivery|delivery fee|storage fee|zollgebuhr|zoll|versandkosten|frais de (douane|livraison|port|reexpedition)|droits de douane|dazi|spese di (spedizione|consegna)|tasas de aduana|gastos de envio|tasa de aduana|taxa alfandegaria|portes de envio)",
+   "el": "Ζητάει «τέλη» για δέμα. Είναι κόλπο για να δώσεις την κάρτα σου.",
+   "en": "It asks for a 'fee' for a parcel: a trick to get your card."
+  },
+  {
+   "id": "smallpay",
+   "w": 25,
+   "re": "(πληρω|εξοφλ|καταβολ|χρεωσ|τελ|pay|fee|charge).{0,60}\\b[0-4][.,]\\d\\d ?(€|ευρω|eur)|(€|eur) ?[0-4][.,]\\d\\d",
+   "el": "Ζητάει μικρό ποσό (π.χ. 1,99 €). Το ποσό είναι μικρό για να μη σκεφτείς· ο στόχος είναι η κάρτα σου.",
+   "en": "It asks for a tiny amount (e.g. €1.99). It's small so you don't think; the goal is your card."
+  },
+  {
+   "id": "refund",
+   "w": 30,
+   "re": "(επιστροφη (φορου|χρηματων|ποσου)|δικαιουσ[\\p{L}\\p{N}_]* (επιστροφη|επιδομα|αποζημιωση|ενισχυση)|εγκριθηκε (η |το )?(επιστροφη|επιδομα)|tax refund|you are eligible|refund (of|is) |steuererstattung|ruckerstattung|remboursement|rimborso|reembolso|devolucion|devolucao)",
+   "el": "Υπόσχεται επιστροφή φόρου ή επίδομα. Η ΑΑΔΕ και το gov.gr δεν στέλνουν link για να «πάρεις» χρήματα.",
+   "en": "It promises a tax refund or benefit. Tax offices don't send links for you to 'claim' money."
+  },
+  {
+   "id": "fine",
+   "w": 25,
+   "re": "(προστιμο|κλησ[\\p{L}\\p{N}_]* (τησ )?τροχαια|παραβασ|απληρωτ|ανεξοφλητ|οφειλ|εκκρεμη (οφειλη|πληρωμη)|unpaid|outstanding (balance|toll|fine)|traffic (fine|violation)|toll|bussgeld|strafzettel|mautgebuhr|maut|amende|peage|multa|pedaggio|sancion|peaje|portagem|toll balance|unpaid toll)",
+   "el": "Μιλάει για πρόστιμο ή χρέος που πρέπει να πληρώσεις αμέσως.",
+   "en": "It talks about a fine or debt you must pay right away."
+  },
+  {
+   "id": "prize",
+   "w": 30,
+   "re": "(κερδισ[\\p{L}\\p{N}_]*|συγχαρητηρια|κληρωσ|επιλεχθηκ|δωρο[\\p{L}\\p{N}_]* (σασ|σου)|δωρεαν (iphone|δωρο)|winner|congratulations|you have (won|been selected)|gift card|free iphone|claim your (prize|reward)|gewonnen|gewinner|herzlichen gluckwunsch|vous avez gagne|felicitations|hai vinto|congratulazioni|ha ganado|has ganado|felicidades|ganhou|parabens)",
+   "el": "«Κέρδισες δώρο»: κανείς δεν χαρίζει πράγματα με SMS.",
+   "en": "'You won a prize': nobody gives away things by text."
+  },
+  {
+   "id": "urgent",
+   "w": 15,
+   "weak": true,
+   "re": "(αμεσα|επειγον|σημερα|εντοσ (24|48)|τελευταια (ειδοποιηση|ευκαιρια|υπενθυμιση)|προθεσμια|μεχρι (σημερα|αυριο|τισ)|immediately|urgent|within (24|48)|final (notice|reminder)|last chance|act now|expires today|sofort|dringend|heute noch|innerhalb von 24|letzte (mahnung|erinnerung)|immediatement|aujourd'?hui|sous 24|dernier rappel|subito|oggi stesso|entro 24|ultimo avviso|inmediatamente|en 24 horas|ultimo aviso|imediatamente|em 24 horas)",
+   "el": "Σε βιάζει («σήμερα», «τελευταία ειδοποίηση»). Η βιασύνη είναι το νούμερο 1 κόλπο.",
+   "en": "It rushes you ('today', 'final notice'). Hurry is trick number one."
+  },
+  {
+   "id": "police",
+   "w": 35,
+   "re": "(europol|interpol|ιντερπολ|κλητευσ|ενταλμα|εισαγγελ|δικαστικ[\\p{L}\\p{N}_]* (ενεργει|μετρ)|παιδικη πορνογραφ|ποινικ[\\p{L}\\p{N}_]* διωξ|summons|arrest warrant|polizei|bundeskriminalamt|staatsanwaltschaft|haftbefehl|gendarmerie|police nationale|polizia di stato|carabinieri|policia nacional|guardia civil|fbi|ministerio publico)",
+   "el": "Σε απειλεί με αστυνομία ή δικαστήριο. Η Αστυνομία δεν στέλνει τέτοια με email ή SMS.",
+   "en": "It threatens you with police or court. Police don't send such things by email or text."
+  },
+  {
+   "id": "invest",
+   "w": 25,
+   "re": "(εγγυημεν[\\p{L}\\p{N}_]* (κερδ|αποδοσ)|κρυπτο|crypto|bitcoin|forex|πολλαπλασιασ|διπλασιασ|guaranteed (profit|return)|double your money|trading (bot|platform)|krypto|gewinn garantiert|garantierte rendite|rendement garanti|rendimento garantito|rentabilidad garantizada|rendimento garantido)",
+   "el": "Υπόσχεται σίγουρα κέρδη από επενδύσεις ή κρυπτονομίσματα.",
+   "en": "It promises sure profits from investing or crypto."
+  },
+  {
+   "id": "job",
+   "w": 30,
+   "re": "(εργασια απο το σπιτι|δουλεια απο το σπιτι|απλη εργασια|\\d+ ?(€|ευρω) (την|τη|ανα) (ημερα|ωρα)|μερικη απασχοληση.{0,40}(whatsapp|telegram)|part.?time job|work from home|remote job.{0,40}(whatsapp|telegram)|like (videos|posts) and earn|heimarbeit|nebenjob|travail a domicile|lavoro da casa|trabajo desde casa|trabalho em casa|\\d+ ?(€|euro) (pro|par|al|por) (tag|jour|giorno|dia))",
+   "el": "Προσφορά δουλειάς «εύκολα λεφτά». Συνήθως καταλήγει να σου ζητήσουν χρήματα.",
+   "en": "An 'easy money' job offer. It usually ends with them asking you for money."
+  },
+  {
+   "id": "movechat",
+   "w": 20,
+   "re": "(επικοινωνησ[\\p{L}\\p{N}_]*.{0,25}(whatsapp|telegram|viber)|(whatsapp|telegram)( μασ| μου)? (στο|at) ?\\+|t\\.me/|wa\\.me/\\+?\\d|kontaktieren sie uns (uber|auf) (whatsapp|telegram)|contactez-nous sur (whatsapp|telegram)|contattaci su (whatsapp|telegram)|contactanos por (whatsapp|telegram)|fale connosco (no|pelo) (whatsapp|telegram))",
+   "el": "Σε στέλνει να μιλήσετε αλλού (WhatsApp/Telegram) για να μη σε προστατεύουν τα φίλτρα.",
+   "en": "It moves you to WhatsApp/Telegram to get away from filters."
+  },
+  {
+   "id": "click",
+   "w": 10,
+   "weak": true,
+   "re": "(πατηστε|πατησε|κανε κλικ|κανετε κλικ|επισκεφθ|μπειτε|συνδεθειτε|click|tap|visit|log ?in|klicken|tippen|cliquez|appuyez|clicca|tocca|haga clic|pulse|clique|toque)",
+   "el": "Σε σπρώχνει να πατήσεις σύνδεσμο.",
+   "en": "It pushes you to tap a link."
+  }
+ ],
+ "blockDomains": [],
+ "allowDomains": [],
+ "feeds": [],
+ "callingCodes": {
+  "gr": "30",
+  "cy": "357",
+  "gb": "44",
+  "ie": "353",
+  "us": "1",
+  "ca": "1",
+  "au": "61",
+  "nz": "64",
+  "de": "49",
+  "at": "43",
+  "ch": "41",
+  "fr": "33",
+  "be": "32",
+  "nl": "31",
+  "lu": "352",
+  "it": "39",
+  "es": "34",
+  "pt": "351",
+  "pl": "48",
+  "cz": "420",
+  "sk": "421",
+  "hu": "36",
+  "ro": "40",
+  "bg": "359",
+  "hr": "385",
+  "si": "386",
+  "rs": "381",
+  "al": "355",
+  "mk": "389",
+  "tr": "90",
+  "se": "46",
+  "no": "47",
+  "dk": "45",
+  "fi": "358",
+  "ee": "372",
+  "lv": "371",
+  "lt": "370",
+  "mt": "356",
+  "is": "354",
+  "ua": "380",
+  "za": "27",
+  "in": "91",
+  "br": "55",
+  "mx": "52",
+  "ar": "54",
+  "ae": "971",
+  "il": "972",
+  "jp": "81",
+  "sg": "65"
+ }
+}
