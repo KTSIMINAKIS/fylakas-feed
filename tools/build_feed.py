@@ -176,6 +176,13 @@ def main():
         "freshness": freshness,
         "files": {},
     }
+    # newest app version (phones show "New version" when it is higher than theirs). Change it ONLY together with the
+    # APK on the website, else phones are sent to download the old one. Signed with the rest of the manifest.
+    av = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "rules", "app-version.json")
+    if os.path.exists(av):
+        app = json.load(open(av, encoding="utf-8"))
+        assert isinstance(app.get("code"), int) and str(app.get("apk", "")).startswith("https://"), "bad app-version.json"
+        manifest["app"] = {"code": app["code"], "name": str(app.get("name", "")), "apk": app["apk"]}
     for name, data in files.items():
         open(os.path.join(a.out, name), "wb").write(data)
         manifest["files"][name] = {"sha256": hashlib.sha256(data).hexdigest(), "size": len(data)}
