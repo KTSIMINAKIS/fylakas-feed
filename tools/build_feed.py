@@ -182,7 +182,19 @@ def main():
     if os.path.exists(av):
         app = json.load(open(av, encoding="utf-8"))
         assert isinstance(app.get("code"), int) and str(app.get("apk", "")).startswith("https://"), "bad app-version.json"
-        manifest["app"] = {"code": app["code"], "name": str(app.get("name", "")), "apk": app["apk"]}
+        # "sha256": announce the version only once the website really serves THAT file (2026-11-19: the APK goes up on a
+        # scheduled date, and phones must never be told about a version they cannot download yet)
+        ok = True
+        if app.get("sha256"):
+            try:
+                import urllib.request
+                live = urllib.request.urlopen(urllib.request.Request(app["apk"], headers={"user-agent": "fylakas-feed"}), timeout=60).read()
+                ok = hashlib.sha256(live).hexdigest() == app["sha256"]
+            except Exception as e:
+                ok = False
+            if not ok: print("  app", app.get("name"), "not on the website yet: not announced")
+        if ok:
+            manifest["app"] = {"code": app["code"], "name": str(app.get("name", "")), "apk": app["apk"]}
     for name, data in files.items():
         open(os.path.join(a.out, name), "wb").write(data)
         manifest["files"][name] = {"sha256": hashlib.sha256(data).hexdigest(), "size": len(data)}
